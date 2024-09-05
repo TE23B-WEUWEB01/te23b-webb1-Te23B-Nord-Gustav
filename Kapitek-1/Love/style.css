@@ -1,0 +1,24 @@
+
+body {
+    background-image: url("bilder/nedladdning.jpg");
+    background-size: cover; /* täck hela sidan */
+    background-attachment: fixed; /* bilden stannar fast när man skrollar */
+  }
+
+h1 {
+    color: rgb(226, 43, 43)
+}
+
+h2 {
+    color: rgb(166, 54, 54);
+    font-size: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: rgb(0, 34, 255);
+}

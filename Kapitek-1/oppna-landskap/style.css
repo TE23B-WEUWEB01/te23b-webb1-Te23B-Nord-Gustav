@@ -1,0 +1,53 @@
+body{
+    background-image: url(./bilder/image-24.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font: 70px Abril Fatface;
+    color: #FFF;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000000;
+    margin-left: 100px;
+
+}
+
+p{
+    font: 20px Nerko One;
+    color: #FFF;
+    font-style: italic;
+    margin-left: 100px;
+    padding: 30px;
+    text-shadow: 1px 1px 0 #3a3a3a;
+    background-color: #13447ca8;
+    border: 3px solid #15467ecf;
+    width: 550px;
+    border-radius: 5px;
+
+
+}
+
+img{
+    width: 100px;
+    margin-left: 350px;
+
+}
+
+a{
+    font: 25px italic;
+    color:antiquewhite;
+    margin-left: 260px;
+    background-color: #13447ca8;
+    border: 3px solid #15467ecf;
+    border-radius: 5px;
+
+
+}
+
+u{
+    font: 25px Nerko One;
+    color: #FFF;
+
+}
