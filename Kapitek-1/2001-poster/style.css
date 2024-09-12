@@ -1,0 +1,14 @@
+body {
+    background-image: url(/Bilder/The_Earth_seen_from_Apollo_17.jpg); 
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: 80px 250px;
+}
+
+h1 {
+    font-family: Protest Guerrilla;
+    font-size: 130px;
+    color: #fff;
+    margin-left: 220px;
+    margin-top: 140px;
+}
