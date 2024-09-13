@@ -1,0 +1,47 @@
+body {
+    background-image: url(/Bilder/shifaaz-shamoon-9K9ipjhDdks-unsplash.jpg);
+    background-size: cover;
+
+}
+
+h1 {
+    color: rgb(255, 241, 221);
+    font-weight: 1000;
+    font-size: 150px;
+    font-style: italic;
+    text-shadow: 5px 5px 0 #11114a;
+    margin-left: 350px;
+    margin-top: 50px;
+
+
+
+}
+
+h2 {
+    color: rgb(255, 241, 221);
+    font-style: italic;
+    font-weight: 900;
+    font-size: 100px;
+    text-shadow: 5px 5px 0 #11114a;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+p {
+    font-style: italic;
+
+}
+
+a {
+    color: #11114a;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(255, 241, 221);
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    border: 2px solid #11114a;
+    border-radius: 10px;
+    margin-left: 630px;
+}
