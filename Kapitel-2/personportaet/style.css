@@ -1,0 +1,31 @@
+body{
+    background-image: url("/Kapitel-2/personportaet/Bilder/markus-spiske-k-o-Icw5J80-unsplash.jpg");
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 60px;
+    font-style: impact;
+    margin-top: 20px;
+    margin-left: 650px;
+
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+p{
+    width: 600px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+img{
+    width: 400px;
+    border: 5px solid #12460dcf;
+    border-radius: 5px;
+    margin-left: 50px;
+}
