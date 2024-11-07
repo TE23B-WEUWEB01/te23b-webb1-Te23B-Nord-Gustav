@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Sixtyfour+Convergence&display=swap');
+
+
+
+
+body{
+    background-image: url(/Kapitel-3/Bildgaleri/Bidler/daniel-olah-HNkgPFBShSw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+p{
+    font-family: "Freeman", sans-serif;
+
+}
+h1{
+    color: #fff;
+    font-family: "Sixtyfour Convergence", sans-serif;
+
+}
+h2{
+    color: #fff;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+img{
+    width: 170px;
+
+}
+.vänster{
+    border-radius: 20px;
+    background-color: #010102;
+    flex-direction:row;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+
+    /* text */
+    color: #B2B3CA;
+}
+.höger{
+    border-radius: 20px;
+    background-color: #010102;
+    flex-direction:row;
+    align-items: center;
+    display: flex;
+
+    /* text */
+    color: #B2B3CA;
+
+}
+.kontainer{
+    border: 5px solid #8d8e94;
+    border-radius: 5px;
+    margin: auto;
+    width: 40%;
+    background-color: #46474d90;    
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
