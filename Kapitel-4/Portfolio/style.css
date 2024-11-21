@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Lacquer&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2E5266;
+
+}
+
+.kontainer{
+    background-color: #6E8898;
+    width: 1400px;
+    margin: auto;
+    margin-top: 65px;
+    padding: 60px;
+    border-radius: 5px;
+    
+}
+
+.blockontain
+{
+    display: flex;
+    gap: 50px;
+
+}
+
+.box{
+    background-color: #9FB1BC;
+    display: flex;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+
+    /* inehållet text */
+    color: #242124;
+}
+img{
+    size: 100%;
+    border-radius: 10px;
+    
+}
+
+h1{
+
+}
+p{
+    margin-left: 20px;
+    
+}
+
+
+/* överbilderna */
+table{
+    width: 1400px;
+    border: #DBC888;
+}
+th{
+    color: #DBC888;
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+/* text blocket nedanför bilderna */
+.huvetext
+{
+    background-color:#90A5B1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
