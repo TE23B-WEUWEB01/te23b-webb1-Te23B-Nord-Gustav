@@ -9,7 +9,7 @@ body{
     margin: 100px;
 
     /* lägger in animationen i den objektet 2s är tid och infinite är infinite */
-    animation: bytfärg 2s infinite;
+    animation: bytfärg 5s infinite;
 }
 .emoji{
     animation: studsa 2s infinite;
