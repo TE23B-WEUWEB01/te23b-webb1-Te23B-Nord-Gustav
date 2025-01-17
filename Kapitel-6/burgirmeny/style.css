@@ -24,22 +24,83 @@ text färg #502314
   */
 
 /* sid layout */
-body {}
-.kontainer {}
+body {
+    background-color: #FBF7F1;
+}
+.kontainer {
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    /* text färg */
+    color: #502314;
+}
 
 /* sidhuvud */
-.sidhuve {}
-.sidhuve .meny {}
-.sidhuve .meny a {}
-.sidhuve .erbjudande {}
+.sidhuve {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #dedede;
+}
+.sidhuve .meny {
+    padding: 10px;
+}
+.sidhuve .meny a {
+    text-decoration: none;
+    color: #502314;
+    padding: 10px;
+}
+.sidhuve .erbjudande {
+    text-decoration: none;
+    color: #CC2200;
+    border: 3px solid #CC2200;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 /* .innehall */
-.innehall {}
-.innehall h2 {}
-.innehall .kolumner-3 {}
-.innehall .kolumner-3 .burgare {}
-.innehall .kolumner-3 .burgare img {}
-.innehall .kolumner-3 .burgare P {}
+.innehall {
+    
+}
+.innehall h2 {
+    font-weight: 400;
+    font-size: 45px;
+    padding: 20px;
+}
+.innehall .kolumner-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.innehall .kolumner-3 .burgare {
+    border-radius: 10px;
+    background-color: #F5EBDC;
+    text-align: center;
+    height: 150px;
+    transition-duration: 300ms;
+    font-weight: 10;
+}
+.innehall .kolumner-3 .burgare:hover{ 
+    transition-duration: 300ms;
+    height: 430px;
+    cursor: pointer;
+}
+.innehall .kolumner-3 .burgare img {
+    width: 75%;
+    margin-top: 40px;
+}
+.innehall .kolumner-3 .burgare img.fix {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+.innehall .kolumner-3 .burgare P {
+    font-size: 25px;
+}
 
 
 
