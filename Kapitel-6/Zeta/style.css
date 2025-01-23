@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:antiquewhite;  
+}
+.kontainer{
+    background-image: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
+    background-repeat: no-repeat;
+}
+.kontainer .meny{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 1200px;
+    margin: auto;
+}
+.kontainer .meny a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.kontainer .meny img{
+    width: 15%;
+}
+.kontainer .innehall{
+    background-color: rgb(255, 246, 234);
+    width: 1100px;
+    margin: auto;
+    padding: 30px;
+    padding-top: 40px;
+}
+.kontainer .innehall h2{
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.kontainer .innehall p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.kontainer .innehall .kolumner-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.kontainer .innehall .kolumner-4 .produkt{
+    padding-bottom: 20px;
+}
+.kontainer .innehall .kolumner-4 .produkt img{
+    width: 100%;
+}
+.kontainer .innehall .kolumner-4 .produkt p{
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    font-size: 17px;
+    
+}
