@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -14,12 +14,52 @@ width: 100%;
 }
 
 /* sidan */
-body{}
-.kontainer{}
+body{
+    background-image: url(./Bilder/boudhayan-bardhan-60tataLkJ0U-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+.kontainer{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+/* bygga layouten */
+.kontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "artiklarna sidebar"
+    "sidfot sidfot"
+    ;
+}
+header{
+    grid-area: sidhuvud;
+    background-color: blueviolet;
+}
+main{
+    grid-area: artiklarna;
+    background-color: aquamarine;
+}
+aside{
+    grid-area: sidebar;
+    background-color: blue;
+}
+footer{
+    grid-area: sidfot;
+    background-color: chartreuse;
+}
 
 /* sidhuvud */
-header{}
-header h1{}
+header{
+    color: #fff;
+    font-family: "Rubik Moonrocks", serif;
+}
+header h1{
+    font-size: 80px;
+}
 header h2{}
 
 /* meny */
@@ -30,6 +70,7 @@ header nav a:hover{}
 
 /* Sidans innehåll */
 main{}
+main article{}
 main h3{}
 main figure{}
 main figure img{}
