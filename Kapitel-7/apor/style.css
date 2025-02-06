@@ -32,30 +32,37 @@ body{
     grid-template-areas: 
     "sidhuvud sidhuvud"
     "artiklarna sidebar"
-    "sidfot sidfot"
-    ;
+    "sidfot sidfot";
+    gap: 20px;
 }
 header{
     grid-area: sidhuvud;
-    background-color: blueviolet;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 20px;
 }
 main{
     grid-area: artiklarna;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
 }
 aside{
     grid-area: sidebar;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
 }
 footer{
     grid-area: sidfot;
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* sidhuvud */
 header{
-    color: #fff;
     font-family: "Rubik Moonrocks", serif;
+    color: whitesmoke;
 }
 header h1{
     font-size: 80px;
@@ -63,19 +70,41 @@ header h1{
 header h2{}
 
 /* meny */
-header nav{}
-header nav a{}
-header nav a.aktiv{}
-header nav a:hover{}
+header nav{
+    background: rgb(5,108,69);
+    background: linear-gradient(0deg, rgba(5,108,69,1) 0%, rgba(21,143,37,1) 35%, rgba(48,255,0,1) 100%);
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+header nav a.aktiv{
+    background: rgb(6,88,56);
+    background: linear-gradient(0deg, rgba(6,88,56,1) 0%, rgba(16,108,28,1) 35%, rgba(55,197,22,1) 100%);
+}
+header nav a:hover{
+    background: rgb(6,88,56);
+    background: linear-gradient(0deg, rgba(6,88,56,1) 0%, rgba(16,108,28,1) 35%, rgba(55,197,22,1) 100%);
+}
 
 /* Sidans innehåll */
 main{}
 main article{}
-main h3{}
-main figure{}
-main figure img{}
-main figure figcaption{}
-main p{}
+main article h3{}
+main article figure{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #AAA;
+}
+main article figure img{}
+main article figure figcaption{}
+main article p{}
 
 /* sidobar */
 footer{}
